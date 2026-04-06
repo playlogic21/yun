@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Frame 공동체 — 디자이너 커뮤니티",
+  title: "학습허브 커뮤니티 — 교육 서비스 소개 & 수강생 네트워크",
   description:
-    "UX/UI·브랜드·프로덕트 디자이너를 위한 커뮤니티. 피드백, 네트워킹, 워크숍을 한곳에서.",
+    "교육 과정 안내, Q&A, 스터디와 라이브 일정을 한곳에서. 예비·수강·수료생이 함께하는 공식 커뮤니티입니다.",
 };
 
 export default function RootLayout({

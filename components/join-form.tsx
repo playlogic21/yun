@@ -41,7 +41,7 @@ export default function JoinForm() {
           className="h-11 flex-1 rounded-lg border border-input bg-background px-4 text-sm shadow-sm outline-none ring-offset-background placeholder:text-muted-foreground focus-visible:border-ring focus-visible:ring-2 focus-visible:ring-ring/50"
         />
         <Button type="submit" className="h-11 shrink-0 px-6 sm:w-auto">
-          알림 받기
+          안내 메일 받기
         </Button>
       </form>
       {status === "success" ? (
@@ -49,7 +49,7 @@ export default function JoinForm() {
           className="text-center text-sm text-emerald-600 dark:text-emerald-400"
           role="status"
         >
-          등록되었습니다. 메일함을 확인해 주세요.
+          신청이 접수되었습니다. 과정 안내 메일을 확인해 주세요.
         </p>
       ) : null}
     </div>
